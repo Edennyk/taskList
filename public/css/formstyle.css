@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(to right, #5433FF, #20BDFF);
+  margin: 0;
+  height: 100vh;
+}
+
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  
+  h3 {
+    margin-top: 0;
+    font-size: 150%;
+  }
+
+  .course-form {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      width: 100%;
+      max-width: 500px;
+    }
+      input{
+        padding: 15px;
+        font-size: 13px;
+        border: 1px solid #e4eff8;
+        background-color: #e4eff8;
+        transition: border .5s;
+        -webkit-tranistion: border .5s;
+        
+      }
+
+      :focus {
+        outline: 0;
+        border-color: #5892FF;
+      }
+    
+      label {
+        color: #999;
+        font-size: 12px;
+        margin-bottom: 3px;
+        margin-left: 16px;
+      }
+      button {
+        background-color: #5892FF;
+        padding: 15px;
+        font-size: 13px;
+        border: 1px solid #e4eff8;
+        color: #fff;
+        width: 100%;
+        align-self: center;
+        margin-top: 15px;
+        border-radius: 50px;
+        transition: background .5s;
+      }
+      footer {
+        padding-top: 15px;
+        text-align: center;
+          color: #999;
+          text-decoration: none;
+          font-size: 11px;
+      }
